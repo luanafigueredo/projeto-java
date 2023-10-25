@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  outline: none;
+}
+
+body {
+  background-color:black;
+}
+
+.logo {
+  width: 180px;
+  display: block;
+  margin: 30px auto;
+}
+
+main {
+  width: 375px;
+  background: beige;
+  border-radius: 20px;
+  margin: 0 auto 40px;
+  padding: 44px 24px 23px;
+}
+
+label {
+  color: black;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+select,input {
+  background: goldenrod;
+  border: 1px solid black;
+  border-radius: 4px;
+  height: 48px;
+  width: 100%;
+  margin-bottom: 24px;
+  padding-left: 18px;
+  font-weight: 550;
+  font-size: 15px;
+  color: black;
+  cursor: pointer;
+}
+
+button {
+  background: goldenrod;
+  border-radius: 5px;
+  width: 100%;
+  border: none;
+  height: 48px;
+  color: black;
+  font-weight: 700;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+button :hover {
+  opacity: 0.8;
+}
+
+button :active {
+  opacity: 0.6;
+}
+
+section {
+  border: 1px solid black;
+  border-radius: 20px;
+  margin-top: 36px;
+  padding: 12px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.arrow-img {
+  margin: 15px 0;
+}
+
+.currency-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  
+}
+
+.currency  {
+  color: #000000;
+  font-size: 20px;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.currency-value, .currency-value-to-convert {
+  color: #060606;
+  font-size: 20px;
+  font-weight: 700;
+ 
+  
+  
+
+}
